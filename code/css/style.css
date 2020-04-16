@@ -1,1 +1,23 @@
 @import url("../fonts/fonts.css");
+
+#start {
+    height: 791px;
+    background-image: url(../img/start-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    height: 95px;
+}
+
+header {
+    height: 696px;
+}
+
+#start .logo_link {
+    color:#ffffff;
+    font-family: "Roboto-thin";
+    font-size: 35px;
+    font-weight: 100;
+}
