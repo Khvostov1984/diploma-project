@@ -6,6 +6,13 @@
 }
 
 @font-face {
+  font-family: 'Roboto-black';
+  src: url('Roboto-Black.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'DaxlinePro';
   src: url('DaxlinePro-ExtraBold.eot');
   src: local('DaxlinePro-ExtraBold'),

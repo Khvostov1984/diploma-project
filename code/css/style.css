@@ -15,9 +15,37 @@ header {
     height: 696px;
 }
 
+#navbarResponsive{
+    padding-left: 313px;
+    padding-top: 27px;
+}
+
+#start .logo{
+    padding-left: 187px;
+}
+
 #start .logo_link {
     color:#ffffff;
     font-family: "Roboto-thin";
     font-size: 35px;
     font-weight: 100;
+    padding-left: 12px;
+}
+
+
+#start .menu_item_activ {
+    font-family: "Roboto-black";
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.33px;
+    color: #00e0d0;
+}
+
+#start .menu_item {
+    font-family: "Roboto-black";
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.33px;
+    color: #ffffff;
+    padding-left: 23px;
 }
