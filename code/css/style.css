@@ -12,20 +12,53 @@ nav {
 }
 
 header {
-    height: 696px;
+    height: 791px;
+    text-align: center;
 }
 
-#navbarResponsive{
+header .start_separator {
+    padding-top: 2px;
+}
+
+header h1 {
+    padding-top: 262px;
+    color: #ffffff;
+    font-family: "Playfair Display-Black";
+    font-size: 38px;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+}
+
+
+
+header p {
+    font-family: "Roboto-regular";
+    font-size: 17px;
+    font-weight: 300;
+    color: #ffffff;
+    line-height: 28.33px;
+    letter-spacing: 0.7px;
+    padding-top: 18px;
+
+}
+
+header .start-button {
+
+    background-image: url(../img/start-btn.png);
+    font-size: 25px;
+
+
+}
+
+#navbarResponsive {
     padding-left: 313px;
     padding-top: 27px;
 }
 
-#start .logo{
-    padding-left: 187px;
-}
+
 
 #start .logo_link {
-    color:#ffffff;
+    color: #09c2bc;
     font-family: "Roboto-thin";
     font-size: 35px;
     font-weight: 100;
@@ -48,4 +81,72 @@ header {
     letter-spacing: 0.33px;
     color: #ffffff;
     padding-left: 23px;
+}
+
+#section-2 {
+    height: 475px;
+}
+
+#section-2 img {
+    padding-top: 82px;
+    padding-left: 76px;
+}
+
+#section-2 h2 {
+    color: #413d4b;
+    font-family: "Playfair Display-Medium";
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 1.1px;
+    padding-top: 82px;
+}
+
+#section-2 p {
+    font-family: "Roboto-regular";
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25.97px;
+    letter-spacing: 0.15px;
+    color: #413d4b;
+    padding-top: 15px;
+}
+
+#Section-3 {
+    height: 650px;
+    background-image: url(../img/section-3-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Section-4 {
+    height: 890px;
+}
+
+#Section-5 {
+    height: 841px;
+    background-image: url(../img/section-5-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Section-6 {
+    height: 870px;
+}
+
+#Section-7 {
+    height: 591px;
+    background-image: url(../img/section-7-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Section-8 {
+    height: 770px;
+}
+
+#footer {
+    height: 473px;
+    background-image: url(../img/footer-bg.jpg);
+    background-size: cover;
+    background-position: center;
 }
