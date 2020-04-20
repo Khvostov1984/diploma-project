@@ -31,16 +31,34 @@
   src: url('PlayfairDisplay-Medium.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay-Regular';
+  src: url('PlayfairDisplay-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
 
 
 
-  @font-face {
-    font-family: 'DaxlinePro';
-    src: url('DaxlinePro-ExtraBold.eot');
-    src: local('DaxlinePro-ExtraBold'),
-      url('DaxlinePro-ExtraBold.eot?#iefix') format('embedded-opentype'),
-      url('DaxlinePro-ExtraBold.woff') format('woff'),
-      url('DaxlinePro-ExtraBold.ttf') format('truetype');
-    font-weight: 800;
-    font-style: normal;
-  }
+@font-face {
+  font-family: 'HammersmithOne-Regular';
+  src: url('HammersmithOne-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+@font-face {
+  font-family: 'DaxlinePro';
+  src: url('DaxlinePro-ExtraBold.eot');
+  src: local('DaxlinePro-ExtraBold'),
+    url('DaxlinePro-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('DaxlinePro-ExtraBold.woff') format('woff'),
+    url('DaxlinePro-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}

@@ -42,13 +42,29 @@ header p {
 
 }
 
-header .start-button {
+.start-btn {
+    padding-top: 38px;
+}
 
-    background-image: url(../img/start-btn.png);
-    font-size: 25px;
+header .button {
+    display: inline-block;
+    color: #00e0d0;
+    font-weight: 400;
+    font-family: "HammersmithOne-Regular";
+    font-size: 19px;
+    text-decoration: none;
+    padding: 10px 17px;
+    outline: none;
+    border: 2px solid;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
 
+header .button:hover {
+    background: rgba(72, 241, 6, 0.2);
 
 }
+
 
 #navbarResponsive {
     padding-left: 313px;
@@ -66,87 +82,133 @@ header .start-button {
 }
 
 
-#start .menu_item_activ {
-    font-family: "Roboto-black";
-    font-size: 15px;
-    font-weight: 400;
-    letter-spacing: 0.33px;
-    color: #00e0d0;
-}
+
 
 #start .menu_item {
     font-family: "Roboto-black";
     font-size: 15px;
     font-weight: 400;
-    letter-spacing: 0.33px;
+    letter-spacing: 1.33px;
+    word-spacing: 5px;
     color: #ffffff;
-    padding-left: 23px;
+    text-transform: uppercase;
 }
 
-#section-2 {
-    height: 475px;
+#start .menu_item:hover {
+    color: #09c2bc;
 }
+    #section-2 {
+        height: 475px;
+    }
 
-#section-2 img {
-    padding-top: 82px;
-    padding-left: 76px;
-}
+    #section-2 img {
+        padding-top: 82px;
+        padding-left: 76px;
+    }
 
-#section-2 h2 {
-    color: #413d4b;
-    font-family: "Playfair Display-Medium";
-    font-size: 26px;
-    font-weight: 400;
-    letter-spacing: 1.1px;
-    padding-top: 82px;
-}
+    #section-2 h2 {
+        color: #413d4b;
+        font-family: "Playfair Display-Medium";
+        font-size: 26px;
+        font-weight: 700;
+        letter-spacing: 1.1px;
+        padding-top: 82px;
+    }
 
-#section-2 p {
-    font-family: "Roboto-regular";
-    font-size: 17px;
-    font-weight: 300;
-    line-height: 25.97px;
-    letter-spacing: 0.15px;
-    color: #413d4b;
-    padding-top: 15px;
-}
+    #section-2 p {
+        font-family: "Roboto-regular";
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 25.97px;
+        letter-spacing: 0.15px;
+        color: #413d4b;
+        padding-top: 15px;
+    }
 
-#Section-3 {
-    height: 650px;
-    background-image: url(../img/section-3-bg.jpg);
-    background-size: cover;
-    background-position: center;
-}
+    .section-2-btn {
+        padding-top: 15px;
+    }
 
-#Section-4 {
-    height: 890px;
-}
+    #section-2 .button {
+        display: inline-block;
+        color: #00e0d0;
+        font-weight: 400;
+        font-family: "HammersmithOne-Regular";
+        font-size: 19px;
+        text-decoration: none;
+        padding: 10px 17px;
+        outline: none;
+        border: 2px solid;
+        text-transform: uppercase;
+        border-radius: 2px;
+    }
 
-#Section-5 {
-    height: 841px;
-    background-image: url(../img/section-5-bg.jpg);
-    background-size: cover;
-    background-position: center;
-}
+    #section-2 .button:hover {
+        background: rgba(72, 241, 6, 0.2);
 
-#Section-6 {
-    height: 870px;
-}
+    }
 
-#Section-7 {
-    height: 591px;
-    background-image: url(../img/section-7-bg.jpg);
-    background-size: cover;
-    background-position: center;
-}
 
-#Section-8 {
-    height: 770px;
-}
+    #Section-3 {
+        height: 650px;
+        background-image: url(../img/section-3-bg.jpg);
+        background-size: cover;
+        background-position: center;
+    }
 
-#footer {
-    height: 473px;
-    background-image: url(../img/footer-bg.jpg);
-    background-size: cover;
-    background-position: center;
-}
+    #Section-4 {
+        height: 890px;
+        text-align: center;
+    }
+
+    #Section-4 h2 {
+        color: #413d4b;
+        font-family: "Playfair Display-Medium";
+        font-size: 26px;
+        font-weight: 700;
+        letter-spacing: 1.1px;
+        padding-top: 80px;
+    }
+
+    #Section-4 p {
+        font-family: "PlayfairDisplay-Regular";
+        font-size: 17px;
+        font-weight: 400;
+        letter-spacing: 1.05px;
+        color: #2f2d35;
+    }
+
+    #Section-4 .separator {
+        padding-top: 35px;
+
+    }
+
+
+    #Section-5 {
+        height: 841px;
+        background-image: url(../img/section-5-bg.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #Section-6 {
+        height: 870px;
+    }
+
+    #Section-7 {
+        height: 591px;
+        background-image: url(../img/section-7-bg.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #Section-8 {
+        height: 770px;
+    }
+
+    #footer {
+        height: 473px;
+        background-image: url(../img/footer-bg.jpg);
+        background-size: cover;
+        background-position: center;
+    }
