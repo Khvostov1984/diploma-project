@@ -262,31 +262,69 @@ header .button:hover {
 
 
 
-    #Section-5 {
-        height: 841px;
-        background-image: url(../img/section-5-bg.jpg);
-        background-size: cover;
-        background-position: center;
-    }
+#Section-5 {
+    height: 841px;
+    background-image: url(../img/section-5-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
 
-    #Section-6 {
-        height: 870px;
-    }
+#Section-5 h2 {
+    color: #ffffff;
+    font-family: "Playfair Display-Medium";
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+    padding-top: 80px;
+}
 
-    #Section-7 {
-        height: 591px;
-        background-image: url(../img/section-7-bg.jpg);
-        background-size: cover;
-        background-position: center;
-    }
+#Section-5 p {
+    font-family: "PlayfairDisplay-Regular";
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 1.05px;
+    color: #f9f9f9;
+}
 
-    #Section-8 {
-        height: 770px;
-    }
+#Section-5 .row {
+    margin-top: 32px;
+}
 
-    #footer {
-        height: 473px;
-        background-image: url(../img/footer-bg.jpg);
-        background-size: cover;
-        background-position: center;
-    }
+
+
+#Section-5 .row .item-text {
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #e1e1e1;
+}
+
+#Section-5 .row .item-text h3 {
+    color: #ffffff;
+    font-family: "Roboto - Black";
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#Section-6 {
+    height: 870px;
+}
+
+#Section-7 {
+    height: 591px;
+    background-image: url(../img/section-7-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Section-8 {
+    height: 770px;
+}
+
+#footer {
+    height: 473px;
+    background-image: url(../img/footer-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
