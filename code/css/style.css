@@ -62,7 +62,6 @@ header .button {
 
 header .button:hover {
     background: rgba(72, 241, 6, 0.2);
-
 }
 
 
@@ -146,7 +145,6 @@ header .button:hover {
 
 #section-2 .button:hover {
     background: rgba(72, 241, 6, 0.2);
-
 }
 
 
@@ -291,20 +289,60 @@ header .button:hover {
     margin-top: 32px;
 }
 
-
-
-#Section-5 .row .item-text {
-    justify-content: center;
-    text-align: center;
-    border: 1px solid #e1e1e1;
+#Section-5 .row .text {
+    width: 260px;
+    height: 94px;
+    border: 1px #e1e1e1 solid;
+    margin-left: 13px;
 }
 
-#Section-5 .row .item-text h3 {
+#Section-5 .row .text h3 {
     color: #ffffff;
     font-family: "Roboto - Black";
     font-size: 17px;
     font-weight: 400;
     text-transform: uppercase;
+    letter-spacing: 0.7px;
+    padding-top: 25px;
+}
+
+#Section-5 .row .text p {
+    color: #9f9eae;
+    font-family: "Roboto-regular";
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+#Section-5 .up-botton {
+    color: #f9f9f9;
+    font-family: "Roboto-regular";
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 0.7px;
+    margin-top: 80px;
+}
+
+.section-5-btn {
+    padding-top: 10px;
+}
+
+#Section-5 .button {
+    display: inline-block;
+    color: #00e0d0;
+    font-weight: 400;
+    font-family: "HammersmithOne-Regular";
+    font-size: 19px;
+    text-decoration: none;
+    padding: 10px 17px;
+    outline: none;
+    border: 2px solid;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+
+#Section-5 .button:hover {
+    background: rgba(72, 241, 6, 0.2);
 }
 
 #Section-6 {
