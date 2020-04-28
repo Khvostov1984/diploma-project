@@ -369,11 +369,96 @@ header .button:hover {
     background-image: url(../img/section-7-bg.jpg);
     background-size: cover;
     background-position: center;
+    text-align: center;
+}
+
+#Section-7 h2 {
+    color: #ffffff;
+    font-family: "PlayfairDisplay-Regular";
+    font-size: 118px;
+    font-weight: 400;
+    transform: rotate(180deg);
+    letter-spacing: -10px;
+    margin-top: 75px;
+}
+
+#Section-7 p {
+    color: #ffffff;
+    font-family: "PlayfairDisplay-Regular";
+    font-size: 19px;
+    font-weight: 400;
+    margin-top: -70px;
+    line-height: 30.69px;
+    letter-spacing: 0.4px;
 }
 
 #Section-8 {
     height: 770px;
 }
+
+#Section-8 h2 {
+    color: #413d4b;
+    font-family: "Playfair Display-Medium";
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 75px;
+    letter-spacing: 1.1px;
+}
+
+#Section-8 form{
+    margin-top: 35px;
+}
+
+#Section-8 .form-min{
+    height: 55px;
+    margin-top: 25px;
+}
+
+#Section-8 .form-big{
+    height: 230px;
+    margin-top: 25px;
+}
+
+#Section-8 .button {
+    display: inline-block;
+    color: #00e0d0;
+    font-weight: 400;
+    font-family: "HammersmithOne-Regular";
+    font-size: 19px;
+    text-decoration: none;
+    padding: 10px 35px;
+    outline: none;
+    border: 2px solid;
+    text-transform: uppercase;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+#Section-8 .button:hover {
+    background: rgba(72, 241, 6, 0.2);
+}
+
+#Section-8 .left { 
+    width: 193px;
+    float: left;
+    text-align: center;
+}
+
+#Section-8 .left img{
+    margin-top: 50px;
+}
+
+#Section-8 .right {
+    width: 167px;
+    float: right;
+    text-align: center;
+}
+
+#Section-8 .right img{
+    margin-top: 50px;
+}
+
 
 #footer {
     height: 473px;
