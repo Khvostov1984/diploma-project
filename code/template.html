@@ -8,6 +8,8 @@
   <title></title>
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="owlcarousel/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/dist/assets/owl.theme.default.css">
 </head>
 
 <body id="page-top">
@@ -220,6 +222,7 @@
         </div>
       </div>
     </div>
+    </div>
   </section>
 
   <section id="Section-8">
@@ -269,7 +272,30 @@
   <footer id="footer">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-4 left">
+          <img class="logo" src="../code/img/start-logo.png" alt="">
+          <a class="navbar-brand js-scroll-trigger main_link logo_link" href="#page-top">tajam</a>
+          <p>lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet
+            auctror a ornare odio non mauris vitae erat in elit</p>
+          <div class="menu-left">
+            <a class="js-scroll-trigger menu_item" href="#page-top">HELP</a>
+          </div>
+          <div class="menu-center">
+            <a class="js-scroll-trigger menu_item" href="#page-top">TERMS & CONDITION</a>
+          </div>
+          <div class="menu-right">
+            <a class="js-scroll-trigger menu_item" href="#page-top">PRIVACY</a>
+          </div>
+        </div>
+        <div class="col-lg-4 center">
+          <h2>OUR STUDIO</h2>
+          <div>
+            <img src="img/icons/location-footer.png" alt="">
+            <p>Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta Barat
+              11480 - Indonesia</p>
+          </div>
+        </div>
+        <div class="col-lg-4 right">
           <p>footer text</p>
         </div>
       </div>
@@ -277,11 +303,38 @@
   </footer>
 
 
+  <div class="owl-carousel owl-theme">
+    <div class="carousel-item">
+      <h3>Контент</h3>
+    </div>
+    <div class="carousel-item"> Контент </div>
+    <div class="carousel-item"> Контент </div>
+    <div class="carousel-item"> Контент </div>
+    <div class="carousel-item"> Контент </div>
+    <div class="carousel-item"> Контент </div>
+    <div class="carousel-item"> Контент </div>
+  </div>
+
+
 
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.bundle.js"></script>
   <script src="js/jquery.easing.js"></script>
   <script src="js/script.js"></script>
+  <script src="OwlCarousel/dist/owl.carousel.min.js"></script>
+
+  <script>
+    $(function () {
+      // Owl Carousel
+      var owl = $(".owl-carousel");
+      owl.owlCarousel({
+        items: 3,
+        margin: 10,
+        loop: true,
+        nav: true
+      });
+    });
+  </script>
 
 </body>
 
