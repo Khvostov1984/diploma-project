@@ -67,7 +67,7 @@ header .button:hover {
 
 #navbarResponsive {
     padding-left: 313px;
-    
+
 }
 
 
@@ -361,8 +361,64 @@ header .button:hover {
 }
 
 #Section-6 {
-    height: 870px;
+    height: 680px;
+    text-align: center;
 }
+
+#Section-6 .row1{
+    padding-top: 75px;
+}
+
+#Section-6 h2 {
+
+    color: #413d4b;
+    font-family: "Playfair Display-Medium";
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    float: left;
+}
+
+#Section-6 .all-progect a {
+    color: #413d4b;
+    font-family: "Roboto-regular";
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 0.7px;
+    float: right;
+}
+
+#Section-6 img{
+    width: 185px;
+}
+
+#Section-6 .image{
+    padding-top: 70px;
+}
+
+.section-6-btn {
+    padding-top: 75px;
+}
+
+#Section-6 .button {
+    display: inline-block;
+    color: #00e0d0;
+    font-weight: 400;
+    font-family: "HammersmithOne-Regular";
+    font-size: 19px;
+    text-decoration: none;
+    padding: 10px 30px;
+    outline: none;
+    border: 2px solid;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+
+#Section-6 .button:hover {
+    background: rgba(72, 241, 6, 0.2);
+}
+
 
 #Section-7 {
     height: 591px;
@@ -536,16 +592,16 @@ header .button:hover {
     letter-spacing: 0.75px
 }
 
-#footer .location{
+#footer .location {
     display: inline-flex;
     margin-top: 25px;
 }
 
-#footer .location-logo{
+#footer .location-logo {
     float: left;
 }
 
-#footer .location-text{
+#footer .location-text {
     float: left;
     margin-left: 15px;
 }
@@ -560,16 +616,16 @@ header .button:hover {
 
 }
 
-#footer .tel{
+#footer .tel {
     display: inline-flex;
-    
+
 }
 
-#footer .tel-logo{
+#footer .tel-logo {
     float: left;
 }
 
-#footer .tel-text{
+#footer .tel-text {
     float: left;
     margin-left: 15px;
 }
@@ -587,23 +643,23 @@ header .button:hover {
 
 
 
-#footer .right .form-min{
+#footer .right .form-min {
     width: 250px;
     height: 54px;
-    
-    
+
+
 }
 
-#footer .search{
+#footer .search {
     display: inline-flex;
 }
 
-#footer .form-group{
+#footer .form-group {
     float: left;
     padding-top: 25px;
 }
 
-#footer .btn1{
+#footer .btn1 {
     float: left;
     height: 54px;
     padding-top: 18px;
@@ -624,32 +680,101 @@ header .button:hover {
 
 
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
 .social a {
     text-align: center;
     width: 48px;
     height: 48px;
     float: left;
     border: 1px solid #ccc;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);
     border-radius: 24px;
     margin: 0 10px 10px 0;
     padding: 6px;
     color: #fff;
 }
-.github a:hover {background: #191919; color: #fff;}
-.youtube a:hover {background: #c4302b; color: #fff;}
-.google-pluse a:hover {background: #DD4B39; color: #fff;}
-.twitter a:hover {background: #00acee; color: #fff;}
-.instagram a:hover {background: #3f729b; color: #fff;}
-.facebook a:hover {background: #3b5998; color: #fff;}
-.skype a:hover {background: #00aff0; color: #fff;}
-.vk a:hover {background: #5d84ae; color: #fff;}
-.odnoklassniki a:hover {background: #f93; color: #fff;}
-.pinterest a:hover {background: #c8232c; color: #fff;}
-.linkedin a:hover {background: #0e76a8; color: #fff;}
-.telegram a:hover {background: #249bd7; color: #fff;}
-.tumblr a:hover {background: #34526f; color: #fff;}
-.windows a:hover {background: #125acd; color: #fff;}
-.whatsapp a:hover {background: #50b154; color: #fff;}
-.weibo a:hover {background: #d52b2b; color: #fff;}
-.dropbox a:hover {background: #1087dd; color: #fff;}
+
+.github a:hover {
+    background: #191919;
+    color: #fff;
+}
+
+.youtube a:hover {
+    background: #c4302b;
+    color: #fff;
+}
+
+.google-pluse a:hover {
+    background: #DD4B39;
+    color: #fff;
+}
+
+.twitter a:hover {
+    background: #00acee;
+    color: #fff;
+}
+
+.instagram a:hover {
+    background: #3f729b;
+    color: #fff;
+}
+
+.facebook a:hover {
+    background: #3b5998;
+    color: #fff;
+}
+
+.skype a:hover {
+    background: #00aff0;
+    color: #fff;
+}
+
+.vk a:hover {
+    background: #5d84ae;
+    color: #fff;
+}
+
+.odnoklassniki a:hover {
+    background: #f93;
+    color: #fff;
+}
+
+.pinterest a:hover {
+    background: #c8232c;
+    color: #fff;
+}
+
+.linkedin a:hover {
+    background: #0e76a8;
+    color: #fff;
+}
+
+.telegram a:hover {
+    background: #249bd7;
+    color: #fff;
+}
+
+.tumblr a:hover {
+    background: #34526f;
+    color: #fff;
+}
+
+.windows a:hover {
+    background: #125acd;
+    color: #fff;
+}
+
+.whatsapp a:hover {
+    background: #50b154;
+    color: #fff;
+}
+
+.weibo a:hover {
+    background: #d52b2b;
+    color: #fff;
+}
+
+.dropbox a:hover {
+    background: #1087dd;
+    color: #fff;
+}
